@@ -45,6 +45,18 @@
             <h1><b>WHISKAS</b></h1>
             <p class="price">RP 25.000</p>
             <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button onclick="window.location.href='#'">Details</button></p>
+            <p><button onclick="window.location.href='checkout.php'">Add to Cart</button></p>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card">
+            <img src="assets/img/royal canin persian.png" alt="DRY FOOD" style="width:100%">
+            <h1><b>ROYAL CANIN</b></h1>
+            <p class="price">RP 25.000</p>
+            <p>Royal Canin Persian untuk kucing persia manfaat bulu semakin lembut dan panjang</p>
+            <p><button onclick="window.location.href='#'">Details</button></p>
             <p><button onclick="window.location.href='checkout.php'">Add to Cart</button></p>
         </div>
     </div>
@@ -55,6 +67,51 @@
             <h1><b>WHISKAS</b></h1>
             <p class="price">RP 25.000</p>
             <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button onclick="window.location.href='#'">Details</button></p>
+            <p><button onclick="window.location.href='checkout.php'">Add to Cart</button></p>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card">
+            <img src="assets/img/whiskas.jpg" alt="DRY FOOD" style="width:100%">
+            <h1><b>WHISKAS</b></h1>
+            <p class="price">RP 25.000</p>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button onclick="window.location.href='#'">Details</button></p>
+            <p><button onclick="window.location.href='checkout.php'">Add to Cart</button></p>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card">
+            <img src="assets/img/whiskas.jpg" alt="DRY FOOD" style="width:100%">
+            <h1><b>WHISKAS</b></h1>
+            <p class="price">RP 25.000</p>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button onclick="window.location.href='#'">Details</button></p>
+            <p><button onclick="window.location.href='checkout.php'">Add to Cart</button></p>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card">
+            <img src="assets/img/whiskas.jpg" alt="DRY FOOD" style="width:100%">
+            <h1><b>WHISKAS</b></h1>
+            <p class="price">RP 25.000</p>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button onclick="window.location.href='#'">Details</button></p>
+            <p><button onclick="window.location.href='checkout.php'">Add to Cart</button></p>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card">
+            <img src="assets/img/whiskas.jpg" alt="DRY FOOD" style="width:100%">
+            <h1><b>WHISKAS</b></h1>
+            <p class="price">RP 25.000</p>
+            <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+            <p><button onclick="window.location.href='#'">Details</button></p>
             <p><button onclick="window.location.href='checkout.php'">Add to Cart</button></p>
         </div>
     </div>

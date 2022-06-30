@@ -38,12 +38,22 @@
     <!--News-->
 
     <div class="container">
-        <h1 class="text-center"><b>Dog Retriever</b></h1>
+        <div class="child"></div>
+        <h1 class="text-center"><b>Golden Retriever</b></h1>
         <img src="assets/img/Pet.jpg" alt="Petshopqu" />
         <h1>
-            Petshopqu merupakan tempat Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sapiente commodi facere recusandae praesentium, excepturi, officia a, blanditiis modi placeat quibusdam repellendus at. Officia
-            asperiores maxime quidem voluptatem aperiam fugiat.
+            Petshopqu merupakan tempat
         </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ipsa et nihil error amet? Cupiditate, facilis. Aspernatur, eaque non, quidem amet quo fugit nam a nihil dignissimos, alias excepturi nisi.</p>
+    </div>
+
+    <div class="container">
+        <h1 class="text-center"><b>Golden Retriever</b></h1>
+        <img src="assets/img/anjing.jpg" alt="Petshopqu" />
+        <h1>
+            test doang.
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores natus quod dolore, sequi cum ipsam dolorem provident laboriosam modi, iusto odit, distinctio commodi! Nostrum corrupti beatae, omnis laboriosam est vero.</p>
     </div>
 </body>
 

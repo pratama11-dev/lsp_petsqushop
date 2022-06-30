@@ -2,6 +2,6 @@
 $hostname = 'localhost';
 $username = 'root';
 $password = '';
-$dbname   = 'lsp_petshopqu';
+$dbname   = 'petshopqu';
 
-$conn = mysqli_connect($hostname, $username, $password, $dbname) or die ('Gagal terhubung ke Database');
+$conn = mysqli_connect($hostname, $username, $password, $dbname) or die('Gagal terhubung ke Database');
