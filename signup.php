@@ -54,9 +54,6 @@ require "db.php";
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="password" required>
 
-            <label for="birt_date"><b>BoD</b></label>
-            <input type="date" placeholder="Enter Birth Date" name="birth_date" required>
-
             <div class="clearfix">
                 <button type="submit" name="register" class="signupbtn">Sign Up</button>
             </div>

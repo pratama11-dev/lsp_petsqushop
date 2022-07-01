@@ -16,15 +16,15 @@ function register($data) {
   $phone_number = $data['phone_number'];
   $username = $data["username"];
   $password = $data["password"];
-  $birth_date = $data["birth_date"];
 
-// enkripsi password
-$password = password_hash($password, PASSWORD_DEFAULT);
 
-//tambah user ke database
-mysqli_query($conn, "INSERT INTO user VALUES ('', '$name', '$address', '$email', '$phone_number', '$username', '$password', '$birth_date')");
+  // enkripsi password
+  $password = password_hash($password, PASSWORD_DEFAULT);
 
-return mysqli_affected_rows($conn);
+  //tambah user ke database
+  mysqli_query($conn, "INSERT INTO user VALUES ('', '$name', '$address', '$email', '$phone_number', '$username', '$password', '')");
+
+  return mysqli_affected_rows($conn);
 }
 
 

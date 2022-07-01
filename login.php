@@ -1,3 +1,29 @@
+<?php
+
+  require 'db.php';
+
+  if (isset($_POST['login'])) {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+    $result = mysqli_query($conn, "SELECT * FROM user WHERE username = '$username'");
+    $row = mysqli_fetch_assoc($result);
+    if (password_verify($password, $row['password'])) {
+      $_SESSION['username'] = $username;
+      $_SESSION['status'] = "login";
+      header("Location: index.php");
+    } else {
+      echo "
+        <script>
+          alert('Username atau Password Salah!');
+        </script>
+      ";
+    }
+  }
+
+
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -10,7 +36,7 @@
 <body>
     <h2>Login Form</h2>
 
-    <form action="/action_page.php" method="post">
+    <form action="" method="post">
 
         <div class="container">
             <label for="user"><b>Username</b></label>
@@ -19,8 +45,8 @@
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="password" required />
 
-            <button type="submit">Login</button>
-            <label> <input type="checkbox" checked="checked" name="remember" /> Remember me </label>
+            <button type="submit" name="login">Login</button>
+            <!-- <label> <input type="checkbox" checked="checked" name="remember" /> Remember me </label> -->
         </div>
 
         <div class="container" style="background-color: #f1f1f1">
